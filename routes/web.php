@@ -18,3 +18,7 @@ Route::get('/about', 'SimplePageController@about')->name('about');
 Route::get('/services', 'SimplePageController@services')->name('services');
 
 Route::get('/contact', 'SimplePageController@contact')->name('contact');
+
+Route::get('/author/{key}',PostByAuthorController::class)->name('post_by_author');
+
+Route::get('/post/{id}',SinglePostController::class)->name('single_post');
