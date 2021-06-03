@@ -6,11 +6,12 @@
     <!-- Blog Entries Column -->
     <div class="col-md-8">
 
-        <h1 class="my-4">Наши контакты<br><br>
+        <h1 class="my-4">Наши контакты:<br><br>
         </h1>
         <ul>
-            <li>Phone: +38(097)65-29-225</li>
-            <li>Email: tyshkul@gmail.com</li>
+            @foreach($contacts as $contact)
+            <li>{{$contact->title}}: {{$contact->value}}</li>
+            @endforeach
         </ul>
 
 

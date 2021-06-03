@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dbc1a23-a7a6-4ff8-a92b-65e24ccb09e3" name="Default Changelist" comment="Laravel init">
-      <change afterPath="$PROJECT_DIR$/app/Author.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostByAuthorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SinglePostController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/AuthorFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/PostFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_29_182415_create_authors_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/posts_by_author.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/single_post.blade.php" afterDir="false" />
+    <list default="true" id="4dbc1a23-a7a6-4ff8-a92b-65e24ccb09e3" name="Default Changelist" comment="Posts by author">
+      <change afterPath="$PROJECT_DIR$/resources/views/post_by_category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/socnetwork.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/db61d391-2edc-404f-b31f-403ac48b4404.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/db61d391-2edc-404f-b31f-403ac48b4404.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Author.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Author.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SimplePageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SimplePageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_29_182415_create_authors_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_29_182415_create_authors_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts_by_author.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts_by_author.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +189,10 @@
       <workItem from="1622063657458" duration="3302000" />
       <workItem from="1622133000988" duration="3487000" />
       <workItem from="1622307055167" duration="16415000" />
-      <workItem from="1622388354372" duration="4885000" />
+      <workItem from="1622388354372" duration="11737000" />
+      <workItem from="1622479895596" duration="12173000" />
+      <workItem from="1622566179311" duration="8187000" />
+      <workItem from="1622738455917" duration="7879000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel init">
       <created>1622136856725</created>
@@ -199,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622136856725</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Posts by author">
+      <created>1622395524548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622395524548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +228,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Laravel init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Laravel init" />
+    <MESSAGE value="Posts by author" />
+    <option name="LAST_COMMIT_MESSAGE" value="Posts by author" />
   </component>
 </project>
