@@ -7,7 +7,15 @@
     <div class="col-md-8">
 
         <h1 class="my-4">Добавить пост:</h1>
-
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
         <!-- Blog Post -->
         @if (Auth::check())
             <hr>

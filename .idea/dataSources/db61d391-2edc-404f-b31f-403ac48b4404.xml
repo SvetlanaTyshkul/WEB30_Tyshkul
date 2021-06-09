@@ -1468,43 +1468,48 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="355" parent="299" name="email">
+    <column id="355" parent="299" name="role">
       <Position>3</Position>
+      <DataType>tinyint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="356" parent="299" name="email">
+      <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="356" parent="299" name="email_verified_at">
-      <Position>4</Position>
+    <column id="357" parent="299" name="email_verified_at">
+      <Position>5</Position>
       <DataType>timestamp|0s</DataType>
     </column>
-    <column id="357" parent="299" name="password">
-      <Position>5</Position>
+    <column id="358" parent="299" name="password">
+      <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="358" parent="299" name="remember_token">
-      <Position>6</Position>
+    <column id="359" parent="299" name="remember_token">
+      <Position>7</Position>
       <DataType>varchar(100)|0s</DataType>
     </column>
-    <column id="359" parent="299" name="created_at">
-      <Position>7</Position>
-      <DataType>timestamp|0s</DataType>
-    </column>
-    <column id="360" parent="299" name="updated_at">
+    <column id="360" parent="299" name="created_at">
       <Position>8</Position>
       <DataType>timestamp|0s</DataType>
     </column>
-    <index id="361" parent="299" name="users_email_unique">
+    <column id="361" parent="299" name="updated_at">
+      <Position>9</Position>
+      <DataType>timestamp|0s</DataType>
+    </column>
+    <index id="362" parent="299" name="users_email_unique">
       <ColNames>email</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="362" parent="299" name="PRIMARY">
+    <key id="363" parent="299" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="363" parent="299" name="users_email_unique">
+    <key id="364" parent="299" name="users_email_unique">
       <ColNames>email</ColNames>
       <UnderlyingIndexName>users_email_unique</UnderlyingIndexName>
     </key>

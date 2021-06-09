@@ -18,6 +18,12 @@
                     Posted on {{$post->updated_at}} by
                     <a href="{{route('post_by_author', $post->author->key)}}">{{$post->author->name}}</a>
                 </div>
+                <div class="card-footer text-muted">
+                    Категории:
+                    @foreach($post->category as $cat)
+                        <a style="white-space:pre" href="{{route('post_by_category', $cat->key)}}">  {{$cat->title}}  </a>
+                    @endforeach
+                </div>
             </div>
         @if (Auth::check())
             <hr>
@@ -28,6 +34,7 @@
                 Добавлен: {{$comment->created_at}}
                 <hr>
             @endforeach
+        @if(Auth::user()->role ==2)
             <form action="save_comment" method="post">
                 @csrf
                  <input type="hidden" name="post_id" value="{{$post->id}}">
@@ -36,6 +43,7 @@
                 <br>
                 <button class="btn-save btn btn-primary btn-cm">Добавить комментарий</button>
             </form>
+            @endif
         @else
         <p>Войдите чтобы иметь возможность видеть комментарии и комментировать</p>
             @endif
