@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dbc1a23-a7a6-4ff8-a92b-65e24ccb09e3" name="Default Changelist" comment="admin">
-      <change afterPath="$PROJECT_DIR$/app/Currency.php" afterDir="false" />
+    <list default="true" id="4dbc1a23-a7a6-4ff8-a92b-65e24ccb09e3" name="Default Changelist" comment="API">
+      <change afterPath="$PROJECT_DIR$/app/Logs/del_posts_log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Logs/edit_posts_log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Logs/log_2021-06-13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Logs/new_posts_log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Logs/single_posts_log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Castle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Chichen_Itza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/HongKong.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Morokko.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Roros.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Turkey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/piza-italy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/db61d391-2edc-404f-b31f-403ac48b4404.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/db61d391-2edc-404f-b31f-403ac48b4404.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SinglePostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SinglePostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_26_205034_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_26_205034_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/single_post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/single_post.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +140,7 @@
       <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
       <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/katzgrau/klogger" />
     </include_path>
   </component>
   <component name="ProjectId" id="1swpb1AzJPOTi9xgLQpXu17mPSi" />
@@ -189,7 +206,8 @@
       <workItem from="1622821441750" duration="8973000" />
       <workItem from="1623003077735" duration="12953000" />
       <workItem from="1623165600627" duration="19664000" />
-      <workItem from="1623338799359" duration="16183000" />
+      <workItem from="1623338799359" duration="16870000" />
+      <workItem from="1623595285031" duration="15374000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel init">
       <created>1622136856725</created>
@@ -226,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623266290987</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="API">
+      <created>1623529170234</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623529170234</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +275,7 @@
     <MESSAGE value="Social networks" />
     <MESSAGE value="comments" />
     <MESSAGE value="admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin" />
+    <MESSAGE value="API" />
+    <option name="LAST_COMMIT_MESSAGE" value="API" />
   </component>
 </project>

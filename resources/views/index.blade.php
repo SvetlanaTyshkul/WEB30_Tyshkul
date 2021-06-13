@@ -29,6 +29,9 @@
                     <a style="white-space:pre" href="{{route('post_by_category', $cat->key)}}">  {{$cat->title}}  </a>
                 @endforeach
             </div>
+            <div class="card-footer text-muted">
+                Просмотры: {{$post->view}}
+            </div>
         </div>
         @endforeach
         <!-- Pagination -->
