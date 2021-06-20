@@ -1,30 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dbc1a23-a7a6-4ff8-a92b-65e24ccb09e3" name="Default Changelist" comment="logging">
-      <change afterPath="$PROJECT_DIR$/app/Logs/log_2021-06-19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Logs/log_2021-06-20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Loch_Ness.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Turkey-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/milan-sobor.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/opera.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/vatican.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/preloader.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/side_bar.blade.php" afterDir="false" />
+    <list default="true" id="4dbc1a23-a7a6-4ff8-a92b-65e24ccb09e3" name="Default Changelist" comment="editing categories">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/db61d391-2edc-404f-b31f-403ac48b4404.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/db61d391-2edc-404f-b31f-403ac48b4404.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Logs/edit_posts_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/Logs/edit_posts_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Logs/new_posts_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/Logs/new_posts_log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Logs/single_posts_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/Logs/single_posts_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin/admin_post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin/admin_post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_26_205034_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_26_205034_create_posts_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/Admin/edit_post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin/edit_post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/post_by_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post_by_category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts_by_author.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts_by_author.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/single_post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/single_post.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +19,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -212,7 +199,7 @@
       <workItem from="1623338799359" duration="16870000" />
       <workItem from="1623595285031" duration="15460000" />
       <workItem from="1623948038375" duration="1389000" />
-      <workItem from="1624123588495" duration="16347000" />
+      <workItem from="1624123588495" duration="21070000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel init">
       <created>1622136856725</created>
@@ -263,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623613818372</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="editing categories">
+      <created>1624194636691</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624194636691</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +283,7 @@
     <MESSAGE value="admin" />
     <MESSAGE value="API" />
     <MESSAGE value="logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="logging" />
+    <MESSAGE value="editing categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing categories" />
   </component>
 </project>

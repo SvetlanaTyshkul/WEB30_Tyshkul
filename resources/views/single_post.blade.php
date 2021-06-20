@@ -8,7 +8,7 @@
         @if(\Session::has('flash'))
             <h5>{{\Session::get('flash')}}</h5>
         @endif
-        <h1 class="my-4">{{$post->title}}</h1>
+        <h1 class="my-4" style="color:{{$post->color}}">{{$post->title}}</h1>
 
         <!-- Blog Post -->
             <div class="card mb-4">
