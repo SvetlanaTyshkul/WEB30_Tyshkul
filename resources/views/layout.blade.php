@@ -64,78 +64,7 @@
     <div class="row">
 
 @yield('content')
-
-        <!-- Sidebar Widgets Column -->
-        <div class="col-md-4">
-
-            <!-- Search Widget -->
-            <div class="card my-4">
-                <h5 class="card-header">Курсы валют</h5>
-                <div class="card-body">
-                    <ul class="list-group-flush">
-                   @inject('currency', '\App\Currency')
-                    {{$currency->get_currency()}}
-                   </ul>
-                </div>
-            </div>
-
-            <!-- Categories Widget -->
-            <div class="card my-4">
-                <h5 class="card-header">Категории</h5>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled mb-0">
-                                @inject('categories', '\App\Category')
-                                @foreach($categories->show_categories() as $category)
-                                <li>
-                                    <a href="{{route('post_by_category', $category->key)}}">{{$category->title}}</a>
-                                </li>
-                                @endforeach
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="card my-4">
-                @inject('authors', '\App\Author')
-                <h5 class="card-header">Лучшие авторы из {{$authors->show_count()}}</h5>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled mb-0">
-
-                                @foreach($authors->show_authors() as $author)
-                                    <li>
-                                        <a href="{{route('post_by_author', $author->key)}}">{{$author->name}}</a>
-                                    </li>
-                                @endforeach
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Side Widget -->
-            <div class="card my-4">
-                <h5 class="card-header">Мы в социальных сетях</h5>
-                <div class="card-body">
-
-                    <a  class="nav-link" href="https://www.facebook.com/">
-                        <img src="https://pngicon.ru/file/uploads/FaceBook_512x512-256x256.png" style="width: 25px; height:25px"> Facebook </a>
-                    <a class="nav-link" href="https://www.instagram.com/">
-                        <img src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?size=338&ext=jpg" style="width: 25px; height:25px"> Instagram</a>
-                    <a class="nav-link" href="https://www.linkedin.com/">
-                        <img src="https://img.icons8.com/ios/452/linkedin.png" style="width: 25px; height:25px"> LinkedIn</a>
-                    <a class="nav-link" href="https://www.youtube.com/">
-                        <img src="https://pngicon.ru/file/uploads/youtube-1.png" style="width: 25px; height:25px"> YouTube</a>
-
-                </div>
-            </div>
-
-        </div>
+        @yield('side_bar')
 
     </div>
     <!-- /.row -->

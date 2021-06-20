@@ -31,3 +31,20 @@
     </div>
 
 @endsection
+@section('side_bar')
+    <!-- Side Widget -->
+    <div class="card my-4">
+        <h5 class="card-header text-center">Мы в социальных сетях</h5>
+        <div class="card-body text-center">
+
+            <a  class="nav-link" href="https://www.facebook.com/">
+                <img src="https://pngicon.ru/file/uploads/FaceBook_512x512-256x256.png" style="width: 25px; height:25px"> Facebook </a>
+            <a class="nav-link" href="https://www.instagram.com/">
+                <img src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?size=338&ext=jpg" style="width: 25px; height:25px"> Instagram</a>
+            <a class="nav-link" href="https://www.linkedin.com/">
+                <img src="https://img.icons8.com/ios/452/linkedin.png" style="width: 25px; height:25px"> LinkedIn</a>
+            <a class="nav-link" href="https://www.youtube.com/">
+                <img src="https://pngicon.ru/file/uploads/youtube-1.png" style="width: 25px; height:25px"> YouTube</a>
+
+        </div>
+@endsection

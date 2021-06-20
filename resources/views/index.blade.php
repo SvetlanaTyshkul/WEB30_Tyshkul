@@ -4,6 +4,7 @@
 
 @section('content')
     <!-- Blog Entries Column -->
+    @include('preloader')
     <div class="col-md-8">
 
         <h1 class="my-4">Page Heading
@@ -55,4 +56,9 @@
         </ul>
 
     </div>
+
+@endsection
+
+@section('side_bar')
+    @include('side_bar')
 @endsection

@@ -5,7 +5,9 @@
 @section('content')
     <!-- Blog Entries Column -->
     <div class="col-md-8">
-
+        @if(\Session::has('flash'))
+            <h5>{{\Session::get('flash')}}</h5>
+        @endif
         <h1 class="my-4">{{$post->title}}</h1>
 
         <!-- Blog Post -->
@@ -53,4 +55,7 @@
     </div>
 @endsection
 
+@section('side_bar')
+    @include('side_bar')
+@endsection
 
