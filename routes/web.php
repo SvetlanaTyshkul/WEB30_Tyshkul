@@ -42,11 +42,17 @@ Route::get('/admin/admin_post','AdminPostsController@delete')->name('admin_post_
 
 Route::delete('/admin/admin_post','AdminPostsController@delete')->name('admin_post_post');
 
-Route::get('/404', function (){
-    return view('404');
-})->name('404');
+Route::get('/404', function (){return view('404');})->name('404');
 
+//Cart actions
 
+Route::get('/cart/add_to_cart/{id}','CartAction@add')->name('add_to_cart');
+
+Route::get('/cart','CartAction@show')->name('cart');
+
+Route::get('/cart/delete/{id}','CartAction@delete')->name('delete_from_cart');
+
+Route::post('/cart/update','CartAction@update')->name('update_cart');
 
 //AUTH
 Auth::routes();
