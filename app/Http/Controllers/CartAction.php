@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Cart;
 use App\Post;
 use Illuminate\Http\Request;
 
@@ -25,7 +26,6 @@ class CartAction extends Controller
 
     public function show()
     {
-
         return view('cart');
     }
 

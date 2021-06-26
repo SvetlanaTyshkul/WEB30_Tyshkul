@@ -21,7 +21,7 @@
                 <h2 class="card-title">{{$post->title}}</h2>
                 <p class="card-text"> {{mb_substr($post->body, 0, 200)}}...</p>
                 <a href="{{route('single_post', $post->id)}}" class="btn btn-primary">Читать далее &rarr;</a>
-                <a href="{{route('add_to_cart', $post->id)}}" class="btn btn-info" >Добавить &rarr;</a>
+                <a href="{{route('add_to_cart', $post->id)}}" class="btn btn-info" >Добавить </a>
             </div>
             <div class="card-footer text-muted">
                 Опубликован {{date('d F Y в G:i', strtotime($post->created_at))}} автором
